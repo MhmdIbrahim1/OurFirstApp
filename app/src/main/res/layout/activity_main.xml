@@ -78,5 +78,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameEd" />
 
+    <Button
+        android:id="@+id/Clickbutt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:backgroundTint="@color/black"
+        android:text="Click"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/goToCalcualteBtn"
+        tools:layout_editor_absoluteX="163dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
