@@ -86,8 +86,9 @@
         android:backgroundTint="@color/black"
         android:text="Click"
         android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@id/goToCalcualteBtn"
-        tools:layout_editor_absoluteX="163dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/goToCalcualteBtn" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
